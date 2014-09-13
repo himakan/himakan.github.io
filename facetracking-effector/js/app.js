@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     AudioPlayer.init();
-    AudioPlayer.loadSound("sound/amen.wav", function() {
+    AudioPlayer.loadSound("sound/drumloop.wav", function() {
         AudioPlayer.loop(true);
         AudioPlayer.playSound();
 
